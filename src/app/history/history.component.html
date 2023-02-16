@@ -1,0 +1,42 @@
+<div class="container">
+    <h2>About our store</h2>
+    <p>
+        The store was founded in 2011, and since then it won the “Best Plushie Store” award every year.
+    </p>
+    <img style="margin: 10px auto; max-width: 150px;" src='../../assets/img/feladat2.png' alt="Best Plushie Store award">
+    <h2 class="h2" style="margin: 15px; margin-left: 0;">Famous plushies</h2>
+    <div class="container text-center">
+        <div class="row gap-3" style="flex-wrap: nowrap;">
+            <div class="card col-12 col-sm-4">
+                <h3>Daniel the Dinosaur</h3>
+                <p>
+                    A large dinosaur by famous plushie maker John Plush.
+                </p>
+            </div>
+            <div class="card col-12 col-sm-4">
+                <h3>Ted</h3>
+                <p>
+                    The first life-sized teddy bear in the country.
+                </p>
+            </div>
+            <div class="card col-12 col-sm-4">
+                <h3>Coffee Cat</h3>
+                <p>
+                    A controversial plushie that promoted drinking coffee to aid web development.
+                </p>
+            </div>
+        </div>
+    </div>
+    <h2 style="margin-left: 0;" class="h2">Provide feedback</h2>
+    <form #feedback class="container">
+        <div class="mb-3 row">
+            <h3 style="margin-left: 0; padding-left: 0;" class="h3">Email:</h3>
+            <input class="rounded" type="text" placeholder="Email address">
+        </div>
+        <div class="mb-3 row">
+            <h3 style="margin-left: 0; padding-left: 0;" class="h3">Feedback:</h3>
+            <textarea class="rounded" type="text" placeholder="Your Feedback"></textarea>
+        </div>
+        <button type="submit" onclick="sendFeedback(feedback)" class="btn btn-primary">Submit</button>
+    </form>
+</div>
